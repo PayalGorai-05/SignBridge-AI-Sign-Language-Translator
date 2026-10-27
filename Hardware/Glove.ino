@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3IHvl0422"
+#define BLYNK_TEMPLATE_ID "Template id"
 #define BLYNK_TEMPLATE_NAME "Sign Language Home Automation"
-#define BLYNK_AUTH_TOKEN "itzaj0M1D5fdppS98ddbHFX58kh2ZO-r"
+#define BLYNK_AUTH_TOKEN "Blynk Token"
 
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
@@ -9,8 +9,8 @@
 #include <Adafruit_Sensor.h>
 #include <LiquidCrystal_I2C.h>
 
-char ssid[] = "Payal";
-char pass[] = "12345678";
+char ssid[] = " Hostspot Name";
+char pass[] = "Your Password";
 
 // ---------- Hardware ----------
 Adafruit_MPU6050 mpu;
